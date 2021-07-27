@@ -1,0 +1,41 @@
+.table-container {
+  margin-top: 20px;
+}
+.grid-container {
+  width: 1200px;
+  height: 600px;
+  margin-top: 20px;
+}
+.ag-header-icon.ag-header-cell-menu-button {
+  display: none !important;
+}
+.ag-theme-alpine .ag-row {
+  font-size: 12px !important;
+}
+.ag-theme-alpine .ag-row-odd {
+  background-color: var(--ag-odd-row-background-color, #f5f4f4) !important;
+}
+.ag-header-row-floating-filter .ag-header-cell {
+  padding: 0 8px;
+}
+.ag-theme-alpine input[class^='ag-']:not([type]):focus, .ag-theme-alpine input[class^='ag-'][type='text']:focus, .ag-theme-alpine input[class^='ag-'][type='number']:focus, .ag-theme-alpine input[class^='ag-'][type='tel']:focus, .ag-theme-alpine input[class^='ag-'][type='date']:focus, .ag-theme-alpine input[class^='ag-'][type='datetime-local']:focus, .ag-theme-alpine textarea[class^='ag-']:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.header-middleName {
+  width: 126px !important;
+}
+.grid-header-button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+button.grid-header-button {
+  background: #f7971b;
+  color: #ffffff;
+  cursor: pointer;
+  padding: .375rem 1.5rem;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  font-size: 12px;
+}
