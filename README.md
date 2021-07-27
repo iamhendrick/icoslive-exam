@@ -1,3 +1,10 @@
+# Intoduction
+
+This project will display student records using mock data. AG Grid has been set up dynamically and will populate the rows, columns, internal, and external filter accordingly based on the data.
+
+- The structure of the data can be able to view inside constant/mock-data.ts
+- The column will display dynamically depending if their visible attribute was set to true or false
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
